@@ -140,7 +140,7 @@ General {
     # When mounted, enables steering the Pokemon by looking.
     enablePointToSteer=true
     # Enables Discord Rich Presense
-    enableRichPresence=true
+    enableRichPresence=false
     # Allow wild Pokemon to initiate battles.
     enableWildAggression=true
     # If enabled, players will be able to challenge others by throwing a Pokemon at the enemy player rather than a Pokemon.
