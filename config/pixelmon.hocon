@@ -10,7 +10,7 @@ AFKHandler {
 # Settings for the Better Spawner.
 "Better Spawning" {
     # The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
-    entitiesPerPlayer=20
+    entitiesPerPlayer=40
     # The horizontal radius of the areas randomly selected near the player to do spawning in. Lower for better performance but less reliable spawning.
     horizontalSliceRadius=16
     # How many ticks 'lead' the player tracking spawner will give players based on their motion. This tries to spawn at locations the player is about to be.
@@ -235,9 +235,9 @@ General {
 # Graphics settings.
 Graphics {
     # Show each Pokemon's health in a bar above their heads.
-    drawHealthBars=false
+    drawHealthBars=true
     # Use the low resolution textures for Pokemon and Poke Balls. Useful for low-end systems.
-    lowResTextures=false
+    lowResTextures=true
     # Set whether or not the player can control the camera during battles (sets to sphere based camera positioning)
     playerControlCamera=true
     # Block distance that Pokemon render from
@@ -384,7 +384,7 @@ Spawning {
     # Max number of flying Pokemon at one time (keep this low).
     maxFlyingPokemon=2
     # Max number of land Pokemon at one time.
-    maxLandPokemon=40
+    maxLandPokemon=80
     # Maximum level Pokemon will spawn at when Spawn Levels By Distance enabled.
     maxLevelByDistance=60
     # Max number of bosses at one time.
