@@ -78,7 +78,7 @@ ExternalMoves {
 # General settings for the world.
 General {
     # Allow the anvil to replace finished items with starting item from player's inventory without manual placing.
-    allowAnvilAutoreloading=true
+    allowAnvilAutoreloading=false
     # Allow player to throw Poke Balls from hotbar. If false, Poke Balls can only be thrown in battles.
     allowCaptureOutsideBattle=true
     # Whether pokemon can dynamax or not
@@ -178,7 +178,7 @@ General {
     # pixelmon.config.pokeRusTimerMin.comment
     pokeRusTimerMin=86400
     # Allows wild Pokemon to drop items like feathers, etc. on death.
-    pokemonDropsEnabled=true
+    pokemonDropsEnabled=false
     # Prints more detailed error messages to the server.log file if enabled.
     printErrors=true
     # Should Rare Candy trigger level event from API
@@ -230,12 +230,12 @@ General {
     # Lets your world follow real world time or not (uses the server's system clock).
     useSystemTimeForWorldTime=false
     # Saves Pixelmon entities to file when world saves (greatly increases save file size and save time if true). Required for the morph mod.
-    writeEntitiesToWorld=false
+    writeEntitiesToWorld=true
 }
 # Graphics settings.
 Graphics {
     # Show each Pokemon's health in a bar above their heads.
-    drawHealthBars=true
+    drawHealthBars=false
     # Use the low resolution textures for Pokemon and Poke Balls. Useful for low-end systems.
     lowResTextures=true
     # Set whether or not the player can control the camera during battles (sets to sphere based camera positioning)
@@ -384,7 +384,7 @@ Spawning {
     # Max number of flying Pokemon at one time (keep this low).
     maxFlyingPokemon=2
     # Max number of land Pokemon at one time.
-    maxLandPokemon=80
+    maxLandPokemon=40
     # Maximum level Pokemon will spawn at when Spawn Levels By Distance enabled.
     maxLevelByDistance=60
     # Max number of bosses at one time.
