@@ -13,7 +13,7 @@
     "anticonditions": []
   },
   "intervalSeconds": {
-    "legendary": 7200
+    "legendary": 3600
   },
   "blockCategories": {
     "lava": [
