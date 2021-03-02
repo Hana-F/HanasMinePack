@@ -178,7 +178,7 @@ General {
     # pixelmon.config.pokeRusTimerMin.comment
     pokeRusTimerMin=86400
     # Allows wild Pokemon to drop items like feathers, etc. on death.
-    pokemonDropsEnabled=false
+    pokemonDropsEnabled=true
     # Prints more detailed error messages to the server.log file if enabled.
     printErrors=true
     # Should Rare Candy trigger level event from API
